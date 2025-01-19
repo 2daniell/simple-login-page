@@ -25,6 +25,8 @@ Este é um projeto de uma **página de login responsiva** feita utilizando **HTM
 
 3. Abra o arquivo `index.html` em seu navegador para visualizar a página.
 
+4. Ou acesse: https://2daniell.github.io/simple-login-page/
+
 ## **Screenshots**
 
 Aqui estão algumas capturas de tela da página de login:
