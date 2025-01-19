@@ -29,8 +29,12 @@ Este é um projeto de uma **página de login responsiva** feita utilizando **HTM
 
 Aqui estão algumas capturas de tela da página de login:
 
-- **Versão Desktop:**
-![Desktop]()
+**MOBILE:**
 
-- **Versão Mobile:**
-![Mobile]()
+![Mobile](https://github.com/2daniell/simple-login-page/blob/master/preview/mobile-login.png)
+
+---
+
+**DESKTOP:**
+
+![Desktop](https://github.com/2daniell/simple-login-page/blob/master/preview/login-desktop.png)
