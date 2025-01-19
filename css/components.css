@@ -1,0 +1,112 @@
+form {
+    display: none;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 20px;
+    width: 30%;
+}
+
+form .input-field {
+    position: relative;
+    width: 100%;
+}
+
+form .input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0px 5px;
+    background-color: #fff;
+    pointer-events: none;
+    transition: top 0.3s ease, transform 0.3s ease;
+}
+
+form .input-field input {
+    width: 100%;
+    padding: 15px 35px 15px 15px;
+    border: 1px solid #e9dbdb;
+    border-radius: 15px;
+    transition: .3s;
+    color: #000;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+form .input-field i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+form .input-field input:focus {
+    border: 2px solid #e9dbdb;
+}
+
+form .input-field input:focus ~ label, 
+form .input-field input:valid ~ label {
+    top: 0;
+}
+
+form button {
+    width: 100%;
+    padding: 20px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: var(--base-color);
+}
+
+span.switcher {
+    font-weight: 600;
+}
+
+span.switcher a {
+    color: var(--base-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+form div:last-of-type {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+form div:last-of-type .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+
+}
+
+form div:last-of-type span {
+    margin: 0 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+form ul:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 70px;
+}
+
+form ul:last-of-type li {
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+form.active {
+    display: flex;
+}

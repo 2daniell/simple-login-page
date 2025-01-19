@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./css/globals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span><a>Home</a></span>
+            <span><a>Sobre Nos</a></span>
+            <span><a>Contato</a></span>
+            <span><a>Ajuda</a></span>
+        </nav>
+        <nav>
+            <span><a>Login</a></span>
+            <button class="switcher">Registrar</button>
+        </nav>
+    </header>
+    <main data-state="up">
+        <div class="text-section">
+            <h1>Faça login <br> Para ter acesso total</h1>
+            <span class="switcher">Não possui uma conta? <a>Registre-se</a></span>
+        </div>
+        <div class="image-section">
+            <img src="./images/image.svg" width="800px" height="800px">
+        </div>
+        <div class="banner-section">
+            <img src="./images/image-2.svg" width="300px" height="300px">
+        </div>
+        <form id="form-login" class="active">
+            <div class="form-header">
+                <h1>Login</h1>
+                <p>Para continuar insira seus dados!</p>
+            </div>
+            <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" name="email" required spellcheck="false">
+                <label>Email</label>
+            </div>
+
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" spellcheck="false">
+                <label>Senha</label>
+            </div>
+
+            <p id="message" style="display: none;"></p>
+
+            <button type="submit">Entrar</button>
+
+            <span class="switcher">Não possui uma conta? <a>Registre-se</a></span>
+
+
+            <div>
+                <div class="line"></div>
+                <span>Ou continue com</span>
+                <div class="line"></div>
+            </div>
+
+            <ul>
+                <li><i class="fab fa-google"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-github"></i></li>
+            </ul>
+
+        </form>
+        <form id="form-register">
+            <div class="form-header">
+                <h1>Registro</h1>
+                <p>Para continuar insira seus dados!</p>
+            </div>
+            <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" name="email" required spellcheck="false">
+                <label>Email</label>
+            </div>
+
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" required spellcheck="false">
+                <label>Senha</label>
+            </div>
+
+            <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="confirm" required spellcheck="false">
+                <label>Confirmar</label>
+            </div>
+
+            <p id="message" style="display: none;"></p>
+
+            <button type="submit">Cadastrar</button>
+
+            <span  class="switcher">Não possui uma conta? <a>Registre-se</a></span>
+
+            <div>
+                <div class="line"></div>
+                <span>Ou continue com</span>
+                <div class="line"></div>
+            </div>
+
+            <ul>
+                <li><i class="fab fa-google"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-github"></i></li>
+            </ul>
+
+        </form>
+        <div class="overlay-container">
+            <img src="./images/image.svg" width="300px" height="300px">
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
